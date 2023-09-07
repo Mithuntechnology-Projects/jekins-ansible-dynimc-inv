@@ -1,5 +1,4 @@
 plugin: aws_ec2
-
 #aws_access_key: 
 #aws_secret_key: 
 
@@ -7,8 +6,8 @@ regions:
   - ap-south-1
 
 filters:
-  instance-state-name : running
- 
+  instance-state-name: running  # Corrected "runnig" to "running"
+
 keyed_groups:
   - key: tags.Name
     prefix: ""

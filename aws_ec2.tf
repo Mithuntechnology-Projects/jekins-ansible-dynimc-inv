@@ -3,7 +3,7 @@ provider "aws"{
 }
 resource "aws_instance" "AWSServer"{
     count = 5
-    ami = "ami-02bb7d8191b50f4bb"
+    ami = "ami-05552d2dcf89c9b24"
     instance_type = "t2.micro"
     security_groups = ["launch-wizard-11"]
     key_name = "devopsprasad"

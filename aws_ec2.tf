@@ -8,6 +8,6 @@ resource "aws_instance" "AWSServer"{
     security_groups = ["launch-wizard-11"]
     key_name = "devopsprasad"
 tags = {
-    Name = "TomcatServers"
+    Name = "tomcatservers"
 }
 }

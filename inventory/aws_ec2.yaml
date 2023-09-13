@@ -6,7 +6,7 @@ regions:
   - ap-south-1
 
 filters:
-  instance-state-name: running  # Corrected "runnig" to "running"
+  instance-state-name: running  
 
 keyed_groups:
   - key: tags.Name
